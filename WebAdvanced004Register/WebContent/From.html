@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>post提交数据</h2>
+	<form action="/WebAdvanced004/ServletDemo01" method="POST">
+		<input type="text" name="word"> 
+		<input type="submit" value="搜搜">
+	</form>
+	
+	<h2>get提交数据</h2>
+	<form action="/WebAdvanced004/ServletDemo01" method="GET">
+		<input type="text" name="word"> 
+		<input type="submit" value="搜搜">
+	</form>
+	
+	<h2>提交多个数据</h2>
+	<form action="/WebAdvanced004/ServletDemo02" method="GET">
+		<input type="text" name="username" value = "value"> 
+		<input type="text" name="password" value = "123456"> 
+		<input type="checkbox" name="aihao" value="money"  /> 钱
+		<input type="checkbox" name="aihao" value="girl"  /> 色
+		<input type="submit" value="搜搜">
+	</form>
+</body>
+</html>
